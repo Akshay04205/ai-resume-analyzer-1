@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink text-white font-body antialiased;
+  background-image: radial-gradient(circle at 10% 20%, rgba(110, 231, 249, 0.15), transparent 20%),
+    radial-gradient(circle at 80% 0%, rgba(199, 243, 107, 0.16), transparent 25%),
+    linear-gradient(180deg, #09111f 0%, #050b15 100%);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass {
+  @apply border border-white/10 bg-white/5 backdrop-blur-xl shadow-glow;
+}
+
+.ring-gradient {
+  background: conic-gradient(from 180deg, #6ee7f9, #c7f36b, #ff8a65, #6ee7f9);
+}
+

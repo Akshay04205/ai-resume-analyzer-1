@@ -1,0 +1,59 @@
+{
+  "candidate_name": "Aarav Sharma",
+  "email": "aarav.sharma@example.com",
+  "phone": "+91 98765 43210",
+  "skills": [
+    "python",
+    "fastapi",
+    "sql",
+    "machine learning",
+    "nlp",
+    "react",
+    "tailwind css"
+  ],
+  "matched_skills": [
+    "python",
+    "fastapi",
+    "sql",
+    "machine learning",
+    "nlp"
+  ],
+  "missing_skills": [
+    "docker",
+    "aws",
+    "ci/cd"
+  ],
+  "ats_score": 63,
+  "suggestions": [
+    "Add resume bullets that show AWS or cloud deployment experience.",
+    "Mention Docker-based project delivery if you have used containers.",
+    "Rewrite the summary to reflect the exact backend AI engineer role keywords.",
+    "Quantify impact using metrics such as latency reduction, accuracy gain, or users served."
+  ],
+  "summary": "Good technical alignment for an entry-level AI backend role, but the resume should better surface cloud and deployment keywords.",
+  "experience_highlights": [
+    "Built a FastAPI service that analyzed uploaded documents and returned structured insights.",
+    "Developed an NLP mini-project that extracted skills from resume text.",
+    "Created a React dashboard to visualize ATS match score and missing skills."
+  ],
+  "required_skills": [
+    "python",
+    "fastapi",
+    "sql",
+    "machine learning",
+    "nlp",
+    "docker",
+    "aws",
+    "ci/cd"
+  ],
+  "score_breakdown": {
+    "matched_count": 5,
+    "required_count": 8,
+    "keyword_coverage": 63,
+    "formatting_score": 78,
+    "impact_score": 72,
+    "overall_score": 66
+  },
+  "resume_excerpt": "AI-focused developer with experience in Python, FastAPI, NLP, and modern dashboard development.",
+  "model_used": "gpt-4.1-mini"
+}
