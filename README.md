@@ -250,4 +250,4 @@ Example structured response:
 
 ## Author
 
-Built by `Bakhtiar Siddiqui`, 'Akshay Dhiman' as an AI/ML college project focused on practical resume analysis and modern product-style presentation.
+Built by `Bakhtiar Siddiqui`, `Akshay Dhiman` as an AI/ML college project focused on practical resume analysis and modern product-style presentation.
